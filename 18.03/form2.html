@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web I | Formulário Avançado</title>
+</head>
+<body>
+    
+    <form action="" method="get">
+        
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            Nome: <input type="text" placeholder="Nome completo"> <br/>
+            Senha: <input type="password" required> <br/>
+            Email: <input type="email"> <br/>
+            Sexo: 
+            <input type="radio" name="sexo" value="M"> Masculino
+            <input type="radio" name="sexo" value="F"> Feminino <br/>
+            Nascimento: <input type="date"> <br/>
+        </fieldset>
+        <br>       
+        <fieldset> <legend>Endereço</legend>
+            Rua: <input type="text"> <br/>
+            Número: <input type="number"> <br/>
+            Estado:
+            <select name="uf">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="BA">Bahia</option>
+            </select> <br/>
+            Complemento: <br> <textarea cols="50" rows="10"></textarea>
+        </fieldset>
+        <br/>
+        <fieldset> <legend>Tópicos de Interesse</legend>
+            <input type="checkbox"> Música <br/>
+            <input type="checkbox"> Filmes <br/>
+            <input type="checkbox"> Esportes <br/>
+            <input type="checkbox"> Estudos <br/>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
