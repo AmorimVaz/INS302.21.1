@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{margin: 0px; font-family: 'Segoe UI';}
+        body{
+            background: #b7b7a4;
+        }
+
+        .titulo{
+            width: fit-content;
+            margin: auto;
+
+            animation-name: up-move;
+            animation-duration: 500ms;
+            animation-delay: 200ms;
+            animation-fill-mode: backwards;
+            animation-iteration-count: 1;
+        }
+
+        .formulario{
+            background: #a5a58d;
+            width: fit-content;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+
+            animation: surgir 1s;
+            /* animation: login 1000ms;
+            animation: up-move 200ms; */
+        }
+
+        .formulario *{
+            margin: 20px;
+        }
+
+        #bloco1, #bloco2{
+            margin: 0px;
+        }
+
+        #bloco1{
+            animation: move-left 400ms 0ms backwards;
+        }
+
+        #bloco2{
+            animation: move-left 400ms 100ms backwards;
+        }
+
+        /* Animação CSS */
+        @keyframes aparecer {
+            from{ background: mediumblue;}  /*From (de)  = 0%*/
+            to{ background: orangered;}     /*To (para)  = 100%*/
+        }
+        
+        @keyframes surgir {
+            from{ 
+                transform: 
+                    translateY(60px)
+                    scale(0.8)
+                    rotate(5deg);
+                opacity: 0.3;
+            } 
+            to{ 
+                transform: 
+                    translateY(0px)
+                    scale(1)
+                    rotate(0deg);
+                opacity: 1;
+            }
+        }
+
+        @keyframes login {
+            0%{ background: #6b705c;}
+            100%{ background: #a5a58d;}
+        }
+
+        @keyframes up-move{
+            from{
+                transform: translateY(10px);
+                opacity: 0.4;
+            }
+            to{
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+
+        @keyframes move-left{
+            from{transform: translateX(-10px); opacity: 0.6;}
+            to{transform: translateX(0px); opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+    <h3 class="titulo">Cadastro</h3>
+    <div class="formulario">
+        <form action="#">
+            <div id="bloco1"> Login: <input type="text"> </div> <br/>
+            <div id="bloco2"> Senha: <input type="password"> </div> <br/>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
