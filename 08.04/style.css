@@ -1,0 +1,121 @@
+.color{
+    color: #123456;         /* Hexadecimal */
+    color: aquamarine;      /* Nome */
+    color: rgb(150, 0, 255);/* RGB */
+}
+
+.bg-color{
+    color: #fff;
+    background-color: cadetblue;
+}
+
+.width{
+    color: #fff;
+    background-color: cadetblue;
+    width: 50vw;       /* view width */
+}
+
+.height{
+    color: #fff;
+    background-color: cadetblue;
+    width: 50vw;
+    height: 50px;
+}
+
+.margin{
+    color: #fff;
+    background-color: cadetblue;
+    width: 50vw;
+    height: 50px;
+    margin: 20px;
+}
+
+.padding{
+    color: #fff;
+    background-color: cadetblue;
+    width: 50vw;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.border{
+    color: #fff;
+    background-color: cadetblue;
+    width: 50vw;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: crimson;
+    border-style: solid;
+
+    /*border: solid 6px springgreen;*/
+}
+
+.border-radius{
+    color: #fff;
+    background-color: cadetblue;
+    width: 50vw;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: crimson;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.font{
+    color: #fff;
+    background-color: cadetblue;
+    width: 50vw;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: crimson;
+    border-style: solid;
+    border-radius: 10px;
+
+    /* font-family: Arial;
+    font-size: 18px; */
+    
+    font: 18px Arial;
+}
+
+.overflow{
+    color: #000;
+    background-color: cadetblue;
+    width: 50vw;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: crimson;
+    border-style: solid;
+    border-radius: 10px;   
+    font: 12px Arial;
+    overflow: auto;
+}
+
+.float{
+    color: #000;
+    background-color: cadetblue;
+    width: 50vw;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: crimson;
+    border-style: solid;
+    border-radius: 10px;   
+    font: 12px Arial;
+    overflow: auto;
+
+    float: right;
+}
+
+.dir{background-color: blue; width: 30%; float:left; }
+.meio{background-color: green; width: 30%; float: left;}
+.esq{background-color: red; width: 30%; float:left; }

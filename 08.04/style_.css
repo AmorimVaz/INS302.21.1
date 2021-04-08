@@ -1,0 +1,29 @@
+p{
+    color: red;
+}
+
+
+.botao{
+    color: blueviolet; 
+}
+
+#titulo{
+    color: green;
+}
+
+/* Agrupamento */
+p, .botao, #titulo{
+    background-color: lightgray;
+}
+
+/* Hieráquia */
+p i{color: yellow;}
+
+a{
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: yellowgreen;
+}
