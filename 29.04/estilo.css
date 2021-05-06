@@ -1,0 +1,65 @@
+*{margin: 0px; padding: 0px;}
+
+.topo{
+    /* background: lightblue; */
+    height: 10vh; /* View Height */
+    width: 100vw; /* View Width */
+    float: left;
+    /* outline: 1px solid black; */
+}
+.menu{
+    /* background: red; */
+    height: 80vh;
+    width: 20%;
+    float: left;
+    /* border: 1px solid black; */
+}
+.miolo{
+    /* background: green; */
+    height: 80vh;
+    width: 80%;
+    float: left;
+    /* border: 1px solid black; */
+}
+.rodape{
+    /* background: yellow; */
+    height: 10vh;
+    width: 100vw;
+    float: left;
+    /* outline: 1px solid black; */
+}
+
+.esq{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.dir{
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+.meio{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+img{
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.miolo *{
+    margin-top: 10px;
+}
+
+label{width: 25%;}
+input{ width: 75%;}
+
+.rodape div{
+    text-align: center;
+}
